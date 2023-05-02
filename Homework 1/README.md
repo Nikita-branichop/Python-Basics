@@ -6,3 +6,6 @@
 ```python
   print ('Hello SoftUni')
 ```
+
+---
+# Задача 2
