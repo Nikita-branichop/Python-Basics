@@ -8,6 +8,7 @@ print ('Hello SoftUni')
 ```
 
 *Изход: Hello SoftUni*
+
 ---
 # Задача 2
 
