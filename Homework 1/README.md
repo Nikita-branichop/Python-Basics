@@ -5,5 +5,4 @@
 
 ```python
   print ('Hello SoftUni')
-
 ```
