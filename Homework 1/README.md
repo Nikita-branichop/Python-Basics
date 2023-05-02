@@ -41,7 +41,7 @@ b = int(input())
 print (a * b)
 ```
 
-Вход&#58; 5 7
+Вход&#58; 5 7 <br>
 Изход&#58; 35
 
 ---
@@ -54,7 +54,7 @@ a = float(input())
 print(a * 2.54)
 ```
 
-Вход&#58; 5
+Вход&#58; 5<br>
 Изход&#58; 12.7
 
 ---
@@ -67,7 +67,7 @@ name = input()
 print('Hello,' + name + '!')
 ```
 
-Вход&#58; John
+Вход&#58; John<br>
 Изход&#58; Hello, John!
 
 ---
@@ -83,7 +83,7 @@ town = input()
 print(f'You are {first_name} {last_name}, a {age}-years old person from {town}.')
 ```
 
-Вход&#58; Ivan Ivanov 25 Sofia
+Вход&#58; Ivan Ivanov 25 Sofia<br>
 Изход&#58; You are Ivan Ivanov, a 25-years old person from Sofia.
 
 ---
@@ -97,7 +97,7 @@ projects = int(input())
 print(f'The architect {architect} will need {projects * 3} hours to complete {projects} project/s.')
 ```
 
-Вход&#58; George 4
+Вход&#58; George 4<br>
 Изход&#58; The architect George will need 12 hours to complete 4 project/s.
 
 ---
@@ -111,7 +111,7 @@ food_cat = int(input())
 print(f'{food_dog * 2.50 + food_cat * 4} lv.')
 ```
 
-Вход&#58; 5 4
+Вход&#58; 5 4<br>
 Изход&#58; 28.5 lv.
 
 ---
@@ -127,7 +127,7 @@ print(f'The final price is: {size * 7.61 - size * 7.61 * 0.18} lv.')
 print(f'The discount is: {size * 7.61 * 0.18} lv.')
 ```
 
-Вход&#58; 550
-Изход&#58; The final price is: 3432.11 lv.
+Вход&#58; 550<br>
+Изход&#58; The final price is: 3432.11 lv.<br>
            The discount is: 753.39 lv.
 
