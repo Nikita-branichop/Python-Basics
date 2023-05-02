@@ -28,7 +28,7 @@ print (9)
 print (10)
 ```
 
-Изход&#58; 1 / 2 / 3 / 4 / 5 / 6 / 7 / 8 / 9 / 10 ( / - на нов ред)
+Изход&#58; 1 / 2 / 3 / 4 / 5 / 6 / 7 / 8 / 9 / 10
 
 ---
 # Задача 3
@@ -128,6 +128,5 @@ print(f'The discount is: {size * 7.61 * 0.18} lv.')
 ```
 
 Вход&#58; 550<br>
-Изход&#58; The final price is: 3432.11 lv.<br>
-           The discount is: 753.39 lv.
+Изход&#58; The final price is: 3432.11 lv. / The discount is: 753.39 lv.
 
