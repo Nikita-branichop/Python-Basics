@@ -33,7 +33,7 @@ print (10)
 ```python
 a = int(input())
 b = int(input())
-print (a*b)
+print (a * b)
 ```
 
 ---
@@ -43,7 +43,7 @@ print (a*b)
 
 ```python
 a = float(input())
-print(a*2.54)
+print(a * 2.54)
 ```
 
 ---
