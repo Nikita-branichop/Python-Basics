@@ -7,7 +7,7 @@
 print ('Hello SoftUni')
 ```
 
-```python
+```
 Изход: Hello SoftUni
 ```
 ---
