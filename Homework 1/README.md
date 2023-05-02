@@ -6,6 +6,7 @@
 ```python
 print ('Hello SoftUni')
 ```
+
 ```
 Вход: 1
 Изход: 1
