@@ -1,6 +1,5 @@
 Този раздел се състои от домашните работи в SoftUni: раздел Pythin-Basics. 
 <div id="header" style="
-          width: 50px;
           position: relative;
           float: right;
           margin-right: 20px;
