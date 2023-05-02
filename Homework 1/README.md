@@ -6,9 +6,9 @@
 ```python
 print ('Hello SoftUni')
 ```
-<br>
-```
-Изход: Hello SoftUni
+
+```c++
+//Изход: Hello SoftUni
 ```
 ---
 # Задача 2
