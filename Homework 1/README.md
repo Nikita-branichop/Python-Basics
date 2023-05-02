@@ -59,7 +59,7 @@ print('Hello,' + name + '!')
 ---
 # Задача 6
 
-Напишете програма, която прочита от конзолата име, фамилия, възраст и град и печата следното съобщение: "You are &lt;firstName&gt; &ltlastName&gt;, a &lt;age&gt;-years old person from &lt;town&gt;."
+Напишете програма, която прочита от конзолата име, фамилия, възраст и град и печата следното съобщение: "You are &lt;firstName&gt; &lt;lastName&gt;, a &lt;age&gt;-years old person from &lt;town&gt;."
 
 ```python
 
