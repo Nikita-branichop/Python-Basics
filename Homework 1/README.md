@@ -8,7 +8,7 @@ print ('Hello SoftUni')
 ```
 
 ```python
-1212
+Изход: Hello SoftUni
 ```
 ---
 # Задача 2
