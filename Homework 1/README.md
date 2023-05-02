@@ -7,9 +7,7 @@
 print ('Hello SoftUni')
 ```
 
-```c++
-//Изход: Hello SoftUni
-```
+*Изход: Hello SoftUni*
 ---
 # Задача 2
 
