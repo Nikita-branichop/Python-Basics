@@ -62,13 +62,21 @@ print('Hello,' + name + '!')
 Напишете програма, която прочита от конзолата име, фамилия, възраст и град и печата следното съобщение: "You are &lt;firstName&gt; &lt;lastName&gt;, a &lt;age&gt;-years old person from &lt;town&gt;."
 
 ```python
-
+first_name = input()
+last_name = input()
+age = input()
+town = input()
+print(f'You are {first_name} {last_name}, a {age}-years old person from {town}.')
 ```
 ---
 # Задача 7
 
-```python
+Напишете програма, която изчислява колко часа ще са необходими на един архитект, за да изготви проектите на няколко строителни обекта. Изготвянето на един проект отнема три часа.
 
+```python
+architect = input()
+projects = int(input())
+print(f'The architect {architect} will need {projects * 3} hours to complete {projects} project/s.')
 ```
 
 ---
