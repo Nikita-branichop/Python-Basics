@@ -4,7 +4,6 @@
           position: relative;
           float: right;
           margin-right: 20px;
-          top: -10px;
         "
 <img src="https://img.icons8.com/color/48/null/python--v1.png"/>
 </div>
