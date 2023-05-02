@@ -6,7 +6,7 @@
 ```python
 print ('Hello SoftUni')
 ```
-
+<br>
 ```
 Изход: Hello SoftUni
 ```
