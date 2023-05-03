@@ -1,9 +1,6 @@
 ---
 # Задача 1
-```python
-usd = float(input())
-print(usd * 1.79549)
-```
+
 
 ---
 # Задача 2
