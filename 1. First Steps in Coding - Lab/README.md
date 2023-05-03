@@ -7,9 +7,6 @@
 print ('Hello SoftUni')
 ```
 
-Изход&#58; Hello SoftUni
-
-
 ---
 # Задача 2
 
@@ -28,8 +25,6 @@ print (9)
 print (10)
 ```
 
-Изход&#58; 1 / 2 / 3 / 4 / 5 / 6 / 7 / 8 / 9 / 10
-
 ---
 # Задача 3
 
@@ -41,9 +36,6 @@ b = int(input())
 print (a * b)
 ```
 
-Вход&#58; 5 7 <br>
-Изход&#58; 35
-
 ---
 # Задача 4
 
@@ -54,9 +46,6 @@ a = float(input())
 print(a * 2.54)
 ```
 
-Вход&#58; 5<br>
-Изход&#58; 12.7
-
 ---
 # Задача 5
 
@@ -66,9 +55,6 @@ print(a * 2.54)
 name = input()
 print('Hello,' + name + '!')
 ```
-
-Вход&#58; John<br>
-Изход&#58; Hello, John!
 
 ---
 # Задача 6
@@ -83,9 +69,6 @@ town = input()
 print(f'You are {first_name} {last_name}, a {age}-years old person from {town}.')
 ```
 
-Вход&#58; Ivan Ivanov 25 Sofia<br>
-Изход&#58; You are Ivan Ivanov, a 25-years old person from Sofia.
-
 ---
 # Задача 7
 
@@ -97,9 +80,6 @@ projects = int(input())
 print(f'The architect {architect} will need {projects * 3} hours to complete {projects} project/s.')
 ```
 
-Вход&#58; George 4<br>
-Изход&#58; The architect George will need 12 hours to complete 4 project/s.
-
 ---
 # Задача 8
 
@@ -110,9 +90,6 @@ food_dog = int(input())
 food_cat = int(input())
 print(f'{food_dog * 2.50 + food_cat * 4} lv.')
 ```
-
-Вход&#58; 5 4<br>
-Изход&#58; 28.5 lv.
 
 ---
 # Задача 9
@@ -126,6 +103,3 @@ size = float(input())
 print(f'The final price is: {size * 7.61 - size * 7.61 * 0.18} lv.')
 print(f'The discount is: {size * 7.61 * 0.18} lv.')
 ```
-
-Вход&#58; 550<br>
-Изход&#58; The final price is: 3432.11 lv. / The discount is: 753.39 lv.
