@@ -1,104 +1,164 @@
-# Задача 1 - Hello SoftUni
+# Задача 1 - Numbers from 1 to 100
 
 Напишете програма, която отпечатва числата от 1 до 100, всяко на нов ред.
 
 ```python
-print ('Hello SoftUni')
+for i in range(1, 101, 1):
+    print(i)
 ```
 
 ---
-# Задача 2 - Nums 1...10
+# Задача 2 - Numbers 1...N with Step 3
 
 Напишете програма, която чете число n, въведено от потребителя и отпечатва числата от 1 до n през 3.
 
 ```python
-print (1)
-print (2)
-print (3)
-print (4)
-print (5)
-print (6)
-print (7)
-print (8)
-print (9)  
-print (10)
+n = int(input())
+for i in range(1, n + 1, 3):
+    print(i)
 ```
 
 ---
-# Задача 3 - Rectangle Area
+# Задача 3 - Even Powers of 2
 
 Да се напише програма, която чете число n, въведено от потребителя, и печата четните степени на 2 ≤ 2<sup>n</sup>: 2<sup>0</sup>, 2<sup>2</sup>, 2<sup>4</sup>, 2<sup>6</sup>, …, 2<sup>n</sup>. 
 
 ```python
-a = int(input())
-b = int(input())
-print (a * b)
+import math
+n = int(input())
+for i in range(0, n + 1, 2):
+    print(pow(2, i))
 ```
 
 ---
-# Задача 4 - Inches to Centimeters
+# Задача 4 - Numbers N...1
 
 Напишете програма, която чете цяло положително число n, въведено от потребителя и печата числата от n до 1 в обратен ред. Въведеното число n, винаги ще бъде по-голямо от 1.
 
 ```python
-a = float(input())
-print(a * 2.54)
+n = int(input())
+for i in range(n, 0, -1):
+    print(i)
 ```
 
 ---
-# Задача 5 - Greeting by Name
+# Задача 5 - Character Sequence
 
 Напишете програма, която чете текст (стринг), въведен от потребителя и печата всеки символ от текста на отделен ред.
 
 ```python
-name = input()
-print('Hello,' + name + '!')
+word = input()
+for i in range(0, len(word), 1):
+    print(word[i])
 ```
 
 ---
-# Задача 6 - Concatenate Data
+# Задача 6 - Vowels Sum
 
 Да се напише програма, която чете текст (стринг), въведен от потребителя, и изчислява и отпечатва сумата от стойностите на гласните букви според таблицата по-долу:
 
+| Букви | a | e | i | o | u |
+| - | - | - | - | - | - |
+| Стройност | 1 | 2 | 3 | 4 | 5 |
+
 ```python
-first_name = input()
-last_name = input()
-age = input()
-town = input()
-print(f'You are {first_name} {last_name}, a {age}-years old person from {town}.')
+word = input()
+sum = 0
+for i in range(0, len(word), 1):
+    if word[i] == 'a': sum += 1
+    if word[i] == 'e': sum += 2
+    if word[i] == 'i': sum += 3
+    if word[i] == 'o': sum += 4
+    if word[i] == 'u': sum += 5
+print(sum)
 ```
 
 ---
-# Задача 7 - Projects Creation
+# Задача 7 - Sum Numbers
 
-Напишете програма, която изчислява колко часа ще са необходими на един архитект, за да изготви проектите на няколко строителни обекта. Изготвянето на един проект отнема три часа.
+Да се напише програма, която чете n-на брой цели числа, въведени от потребителя и ги сумира.
++	От първия ред на входа се въвежда броят числа n.
++	От следващите n реда се въвежда по едно цяло число.
+
+Програмата трябва да прочете числата, да ги сумира и да отпечата сумата им. 
+
 
 ```python
-architect = input()
-projects = int(input())
-print(f'The architect {architect} will need {projects * 3} hours to complete {projects} project/s.')
+n = int(input())
+sum = 0
+for i in range(1, n + 1, 1):
+    num = int(input())
+    sum += num
+print(sum)
 ```
 
 ---
-# Задача 8 - Pet Shop
+# Задача 8 - Number sequence
 
-Напишете програма, която пресмята нужните разходи за закупуването на храна за кучета и котки.  Храната се пазарува от зоомагазин, като една опаковка храна за кучета е на цена 2.50 лв, а опаковка храна за котки струва 4 лв.
+Напишете програма, която чете n на брой цели числа. Принтирайте най-голямото и най-малкото число сред въведените.
 
 ```python
-food_dog = int(input())
-food_cat = int(input())
-print(f'{food_dog * 2.50 + food_cat * 4} lv.')
+import sys
+n = int(input())
+max_num = -sys.maxsize
+min_num = sys.maxsize
+for i in range(1, n + 1, 1):
+    num = int(input())
+    if num > max_num: max_num = num
+    if num < min_num: min_num = num
+print(f'Max number: {max_num}')
+print(f'Min number: {min_num}')
 ```
 
 ---
-# Задача 9 - Yard Greening
+# Задача 9 - Left and Right Sum
 
-Божидара разполага с няколко къщи на Черноморието и желае да озелени дворовете на някои от тях, като по този начин създаде уютна обстановка и комфорт на гостите си. За целта е наела фирма.<br>
-Напишете програма, която изчислява необходиматa сума, които Божидара ще трябва да заплати на фирмата изпълнител на проекта. Цената на един кв. м. е 7.61 лв със ДДС. Понеже нейният двор е доста голям, фирмата изпълнител предлага 18% отстъпка от крайната цена.
+Да се напише програма, която чете 2 * n - на брой цели числа, подадени от потребителя, и проверява дали сумата на първите n числа (лява сума) е равна на сумата на вторите n числа (дясна сума). При равенство печата " Yes, sum = " + сумата; иначе печата " No, diff = " + разликата. Разликата се изчислява като положително число (по абсолютна стойност). 
 
 
 ```python
-size = float(input())
-print(f'The final price is: {size * 7.61 - size * 7.61 * 0.18} lv.')
-print(f'The discount is: {size * 7.61 * 0.18} lv.')
+import math
+n = int(input())
+sum_right = 0
+sum_left = 0
+for i in range(1, n + 1, 1):
+    num = int(input())
+    sum_right += num
+for i in range(1, n + 1, 1):
+    num = int(input())
+    sum_left += num
+if sum_right == sum_left:
+    print(f'Yes, sum = {sum_right}')
+else:
+    print(f'No, diff = {abs(sum_right - sum_left)}')
+```
+
+---
+# Задача 10 - Odd Even Sum
+
+Да се напише програма, която чете n-на брой цели числа, подадени от потребителя и проверява дали сумата от числата на четни позиции е равна на сумата на числата на нечетни позиции. 
++	Ако сумите са равни да се отпечатат два реда: "Yes" и на нов ред "Sum = " + сумата; 
++	Ако сумите не са равни да се отпечат два реда: "No" и на нов ред "Diff = " + разликата. 
+
+Разликата се изчислява по абсолютна стойност. 
+
+
+
+```python
+import math
+n = int(input())
+sum_even = 0
+sum_odd = 0
+for i in range(0, n, 1):
+    num = int(input())
+    if i % 2 == 0:
+        sum_even += num
+    if i % 2 != 0:
+        sum_odd += num
+if sum_even == sum_odd:
+    print(f'Yes')
+    print(f'Sum = {sum_even}')
+else:
+    print(f'No')
+    print(f'Diff = {abs(sum_even - sum_odd)}')
 ```
